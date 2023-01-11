@@ -29,7 +29,7 @@ public class App {
 
             System.out.print("Enter the subject name: ");
             scanner.nextLine();
-            String subjectName2 = scanner.nextLine();
+            String subjectName = scanner.nextLine();
 
             System.out.print("Enter the subject credits: ");
             int subjectCredits = scanner.nextInt();
@@ -38,7 +38,7 @@ public class App {
             int subjectHours = scanner.nextInt();
 
             Subject subject = new Subject();
-            subject.name = subjectName2;
+            subject.name = subjectName;
             subject.setCredits(subjectCredits);
             subject.setHours(subjectHours);
 
